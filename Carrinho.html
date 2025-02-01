@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Carrinho de compras </title>
+        <link rel="stylesheet" href="./Styles/styleCarrinho.css">
+        <link rel="shortcut icon" href="./Imagens/Favicon da EletroLucas.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+
+        <script src="./Scripts/scriptCarrinho.js"></script>
+
+        <header>
+
+            <div class="container">
+                <div class="layout-infos">
+                    <!-- Logomarca do site -->
+                    <div class="ajuste-imagem">
+                        <div class="logomarca">
+                            <img src="./Imagens/Logomarca.png" alt="Logomarca do site" title="EletroLucas">
+                        </div>   
+                    </div>            
+                    <!-- Fim da logomarca do site -->
+            
+                    <!-- Home -->
+                    <div class="ajuste-home">
+                        <div class="home">
+                            <i class="bi bi-house-door-fill"></i>
+                            <p> <a href="Index.html" class="cor-texto"> Home </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim da home -->
+
+                    <!-- Login/entre -->
+                    <div class="ajuste-login">
+                        <div class="login">
+                            <i class="bi bi-person-fill"></i>
+                            <p> <a href="Login.html" class="cor-texto"> Login </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do login -->
+
+                    <!-- Cadastre-se -->
+                    <div class="ajuste-cadastro">
+                        <div class="cadastro">
+                            <i class="bi bi-person-plus-fill"></i>
+                            <p> <a href="Cadastro.html" class="cor-texto"> Cadastre-se </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do cadastro -->
+
+                    <!-- Carrinho de compras -->
+                    <div class="ajuste-carrinho">
+                        <div class="carrinho">
+                            <i class="bi bi-cart-fill"></i>
+                            <p> <a href="Carrinho.html" class="cor-texto"> Carrinho de compras </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do carrinho de compras -->  
+                </div>            
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="container">
+                <div class="ajuste-geral-celular">
+                    <!-- Imagem do celular -->
+                    <div class="ajuste-celular-carrinho">
+                        <div class="ajuste-imagem-celular">
+                            <img src="./Imagens/Celular Iphone 6 Carrinho.jpg" alt="Celular Iphone 6 branco, vermelho e azul" title="Celular Iphone 6">
+                        </div>
+                        <!-- Fim da Imagem do celular -->
+                    
+                        <!-- Informações do celular -->
+                        <div class="produto-celular">
+                            <h3> Celular Iphone 6 de diversas cores </h5>
+
+                            <h4> R$ 599,99 </h4>
+
+                            <p> Esse celular tem uma boa qualidade para ser usado por muitos anos. Possui uma boa bateria e um excelente funcionamento, com 128Gb de armazenamento. </p>
+                        </div>
+                        <!-- Fim das informações do celular -->
+                    </div>
+                    <!-- Fim da página de celular no carrinho -->
+
+                    <!-- Preço total -->
+                    <div class="ajuste-total-compra">                     
+                        <h3> Total da compra: </h3>
+                        <h4> R$ 5.599,97 </h4>
+                        <form action="Pagamento.html">
+                            <input type="submit" value="Ir para pagamento" id="botao">
+                        </form>
+                    </div>
+                    <!-- Fim do preço total -->
+                </div>
+
+                <div class="ajuste-geral-computador">
+                    <div class="ajuste-computador">
+                        <!-- Imagem do computador -->
+                        <div class="ajuste-imagem-computador">
+                            <img src="./Imagens/Computador Carrinho.jpg" alt="Computador branco da Apple" title="Computador branco da apple">
+                        </div>
+                        <!-- Fim da imagem do computador -->
+
+                        <!-- Informações do computador -->
+                        <div class="produto-computador">
+                            <h3> Computador da Apple de boa qualidade </h3>
+                            <h4> R$ 2.999,99</h4>
+                            <p> Esse computador é excelente para utilizar para o trabalho, contendo um armazenamento de 1Tb, além de contar com um processador intel-core i9 para rodar os programas com mais facilidade e tem uma placa de vídeo GTX 890, pode não ser boa para jogos, mas ela ajuda muito no desempenho do computador. </p>
+                        </div>
+                        <!-- Fim das informações do computador -->
+                    </div>
+                </div>
+                
+                <div class="ajuste-geral-notebook">
+                    <div class="ajuste-notebook">
+                        <!-- Imagem do notebook -->
+                        <div class="ajuste-imagem-computador">
+                            <img src="./Imagens/Notebook Carrinho.jpg" alt="Notebook Branco da Dell" title="Notebook branco da Dell">
+                        </div>
+                        <!-- Fim da imagem do notebook -->
+
+                        <!-- Informações do notebook -->
+                        <div class="produto-notebook">
+                            <h3> Notebook branco da Dell de qualidade interessante </h3>
+                            <h4> R$ 1.999,99 </h4>
+                            <p> Esse notebook é muito bom e pode armazenar até 500Gb, além de ter um processador intel-core i5 que roda bem qualquer programa. </p>
+                        </div>
+                        <!-- Fim das informações do notebook -->
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+ 
+            <div class="ajuste-rodape">
+                <!-- Direitos do site -->
+                <div class="ajuste-direito">
+                    <div class="direitos">
+                        <p> © 2024 Site de eletrônicos - Todos os direitos reservados </p>
+                    </div>
+                </div>
+                <!-- Fim da linha de direitos do site -->
+ 
+                <!-- Minhas informações pessoais -->
+                <div class="ajuste-informacoes">
+                    <div class="informacoes">
+                        <p> Lucas Henrique Boaratti Silva </p>
+                        <p> Estudante do SENAI cursando Desenvolvimento de Sistemas </p>
+                    </div>
+                </div>
+                <!-- Fim das informações pessoais -->
+ 
+                <!-- Loja e sobre nós -->
+                <div class="ajuste-informacoes-loja">
+                    <div class="informacoes-loja">
+                        <p> Loja </p>
+                        <p> <a href="Sobre_Nós.html"> Sobre nós </a> </p>
+                    </div>
+                </div>
+                <!-- Fim das informações da loja -->
+ 
+                <!-- Contatos -->
+                <div class="ajuste-contato">
+                    <div class="contatos">
+                        <p> Contatos: </p>
+                        <p> lucasboaratti15@gmail.com </p>
+                        <div class="icones">
+                            <a href="https://www.instagram.com/"> <i class="bi bi-instagram"></i> </a>
+                            <a href="https://www.facebook.com/?locale=pt_BR"> <i class="bi bi-facebook"></i> </a>
+                            <a href="https://www.google.com.br/maps/place/Escola+e+Faculdade+de+Tecnologia+Senai+Roberto+Mange/@-22.9143779,-47.0690107,300m/data=!3m1!1e3!4m6!3m5!1s0x94c8c8c794884427:0x15a2759628f243d1!8m2!3d-22.9140476!4d-47.0681209!16s%2Fg%2F1td7d7zd?entry=ttu&g_ep=EgoyMDI0MTAyMC4xIKXMDSoASAFQAw%3D%3D"> <i class="bi bi-geo-alt-fill"></i> </a>
+                            <a href="Carrinho.html" onclick="telefone()"> <i class="bi bi-telephone-fill"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim dos contatos -->
+            </div>
+ 
+        </footer>
+        
+    </body>
+
+</html>

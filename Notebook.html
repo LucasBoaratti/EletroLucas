@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Notebooks </title>
+        <link rel="stylesheet" href="./Styles/styleNotebook.css">
+        <link rel="shortcut icon" href="./Imagens/Favicon da EletroLucas.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+
+        <script src="./Scripts/scriptNotebook.js"></script>
+
+        <header>
+
+            <div class="container">
+                <div class="layout-infos">
+                    <!-- Logomarca do site -->
+                    <div class="ajuste-imagem">
+                        <div class="logomarca">
+                            <img src="./Imagens/Logomarca.png" alt="Logomarca do site" title="EletroLucas">
+                        </div>   
+                    </div>            
+                    <!-- Fim da logomarca do site -->
+            
+                    <!-- Home -->
+                    <div class="ajuste-home">
+                        <div class="home">
+                            <i class="bi bi-house-door-fill"></i>
+                            <p> <a href="Index.html" class="cor-texto"> Home </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim da home -->
+
+                    <!-- Login/entre -->
+                    <div class="ajuste-login">
+                        <div class="login">
+                            <i class="bi bi-person-fill"></i>
+                            <p> <a href="Login.html" class="cor-texto"> Login </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do login -->
+
+                    <!-- Cadastre-se -->
+                    <div class="ajuste-cadastro">
+                        <div class="cadastro">
+                            <i class="bi bi-person-plus-fill"></i>
+                            <p> <a href="Cadastro.html" class="cor-texto"> Cadastre-se </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do cadastro -->
+
+                    <!-- Carrinho de compras -->
+                    <div class="ajuste-carrinho">
+                        <div class="carrinho">
+                            <i class="bi bi-cart-fill"></i>
+                            <p> <a href="Carrinho.html" class="cor-texto"> Carrinho de compras </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do carrinho de compras -->  
+                </div>            
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="container">
+                <div class="ajuste-geral-notebook">
+                    <!-- Imagem do notebook -->
+                    <div class="ajuste-notebook">
+                        <div class="ajuste-imagem-notebook">
+                            <img src="./Imagens/Notebook 1.jpg" alt="Imagem de um macbook" title="Macbook">
+                        </div>
+                        <!-- Fim da Imagem do notebook -->
+                    
+                        <!-- Informações do notebook -->
+                        <div class="produto-notebook">
+                            <h3> Macbook de ótima qualidade </h5>
+                            <h4> R$ 9.999,99 </h4>
+                            <p> Esse macbook é capaz de fazer qualquer coisa, ele é bem potente e vem com bastante armazenamento para você baixar seus jogos e fazer seus trabalhos, além de diversas outras coisas. </p>
+                            <form action="Carrinho.html">
+                                <input type="submit" value="Adicionar ao carrinho" onclick="carrinho()">
+                            </form>
+                        </div>
+                        <!-- Fim das informações do notebook -->
+                    </div>
+                </div>
+
+                <div class="ajuste-geral-notebook">
+                    <!-- Imagem do notebook -->
+                    <div class="ajuste-notebook">
+                        <div class="ajuste-imagem-notebook">
+                            <img src="./Imagens/Notebook 2.jpg" alt="Imagem de um notebook da apple" title="Notebook da apple">
+                        </div>
+                        <!-- Fim da Imagem do notebook -->
+                    
+                        <!-- Informações do notebook -->
+                        <div class="produto-notebook">
+                            <h3> Notebook da apple de boa qualidade </h5>
+                            <h4> R$ 9.999,99 </h4>
+                            <p> Esse notebook é excelente para você fazer seu próprio trabalho, ele já vem com o pacote office instalado para você fazer seus trabalhos de escola/faculdade. </p>
+                            <form action="Carrinho.html">
+                                <input type="submit" value="Adicionar ao carrinho" onclick="carrinho()">
+                            </form>
+                        </div>
+                        <!-- Fim das informações do notebook -->
+                    </div>
+                </div>
+
+                <div class="ajuste-geral-notebook">
+                    <!-- Imagem do notebook -->
+                    <div class="ajuste-notebook">
+                        <div class="ajuste-imagem-notebook">
+                            <img src="./Imagens/Notebook 3.jpg" alt="Imagem de um notebook gamer da sansung" title="Notebook gamer da sansung">
+                        </div>
+                        <!-- Fim da Imagem do notebook -->
+                    
+                        <!-- Informações do notebook -->
+                        <div class="produto-notebook">
+                            <h3> Notebook gamer da marca sansung de excelente qualidade </h5>
+                            <h4> R$ 7.999,99 </h4>
+                            <p> Esse notebook é capaz de rodar qualquer jogo, tendo uma placa de vídeo RTX4090 e um processador intel-core i7 de última geração, além de ter um armazenamento de quase 1Tb de espaço. </p>
+                            <form action="Carrinho.html">
+                                <input type="submit" value="Adicionar ao carrinho" onclick="carrinho()">
+                            </form>
+                        </div>
+                        <!-- Fim das informações do notebook -->
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+        
+    </body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Celulares </title>
+        <link rel="stylesheet" href="./Styles/styleCelular.css">
+        <link rel="shortcut icon" href="./Imagens/Favicon da EletroLucas.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+        
+        <script src="./Scripts/scriptCelular.js"></script>
+
+        <header>
+
+            <div class="container">
+                <div class="layout-infos">
+                    <!-- Logomarca do site -->
+                    <div class="ajuste-imagem">
+                        <div class="logomarca">
+                            <img src="./Imagens/Logomarca.png" alt="Logomarca do site" title="EletroLucas">
+                        </div>   
+                    </div>            
+                    <!-- Fim da logomarca do site -->
+            
+                    <!-- Home -->
+                    <div class="ajuste-home">
+                        <div class="home">
+                            <i class="bi bi-house-door-fill"></i>
+                            <p> <a href="Index.html" class="cor-texto"> Home </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim da home -->
+
+                    <!-- Login/entre -->
+                    <div class="ajuste-login">
+                        <div class="login">
+                            <i class="bi bi-person-fill"></i>
+                            <p> <a href="Login.html" class="cor-texto"> Login </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do login -->
+
+                    <!-- Cadastre-se -->
+                    <div class="ajuste-cadastro">
+                        <div class="cadastro">
+                            <i class="bi bi-person-plus-fill"></i>
+                            <p> <a href="Cadastro.html" class="cor-texto"> Cadastre-se </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do cadastro -->
+
+                    <!-- Carrinho de compras -->
+                    <div class="ajuste-carrinho">
+                        <div class="carrinho">
+                            <i class="bi bi-cart-fill"></i>
+                            <p> <a href="Carrinho.html" class="cor-texto"> Carrinho de compras </a> </p>
+                        </div>
+                    </div>
+                    <!-- Fim do carrinho de compras -->  
+                </div>            
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="container">
+                <div class="ajuste-geral-celular">
+                    <!-- Imagem do celular -->
+                    <div class="ajuste-celular">
+                        <div class="ajuste-imagem-celular">
+                            <img src="./Imagens/Celular 1.jpg" alt="Imagem de um iphone" title="Iphone">
+                        </div>
+                        <!-- Fim da Imagem do celular -->
+                    
+                        <!-- Informações do celular -->
+                        <div class="produto-celular">
+                            <h3> Celular Iphone 10 branco </h5>
+                            <h4> R$ 999,99 </h4>
+                            <p> Esse celular tem uma boa qualidade para ser usado por muitos anos. Possui uma boa bateria e um excelente funcionamento, com 256Gb de armazenamento. </p>
+                            <form action="Carrinho.html">
+                                <input type="submit" value="Adicionar ao carrinho" onclick="carrinho()">
+                            </form>
+                        </div>
+                        <!-- Fim das informações do celular -->
+                    </div>
+                </div>
+
+                <div class="ajuste-geral-celular">
+                    <div class="ajuste-celular">
+                        <!-- Imagem do celular -->
+                        <div class="ajuste-imagem-celular">
+                            <img src="./Imagens/Celular 2.jpg" alt="Imagem de um celular da sansung" title="Celular da sansung">
+                        </div>
+                        <!-- Fim da imagem do celular -->
+
+                        <!-- Informações do celular -->
+                        <div class="produto-celular">
+                            <h3> Celular smartphone da sansung </h3>
+                            <h4> R$ 749,99 </h4>
+                            <p> Esse celular da sansung é excelente para quem busca rapidez no dispositivo. Ele possui cerca de 512Gb de armazenamento e contém uma boa resolução de tela, além de ser a prova d'agua. </p>
+                            <form action="Carrinho.html">
+                                <input type="submit" value="Adicionar ao carrinho" onclick="carrinho()">
+                            </form>
+                        </div>
+                        <!-- Fim das informações do celular -->
+                    </div>
+                </div>
+                
+                <div class="ajuste-geral-celular">
+                    <div class="ajuste-celular">
+                        <!-- Imagem do celular -->
+                        <div class="ajuste-imagem-celular">
+                            <img src="./Imagens/Celular 3.jpg" alt="Imagem de um celular da xiaomi" title="Celular da xiaomi">
+                        </div>
+                        <!-- Fim da imagem do celular -->
+
+                        <!-- Informações do celular -->
+                        <div class="produto-celular">
+                            <h3> Celular Xiaomi de ótima qualidade </h3>
+                            <h4> R$ 1.999,99 </h4>
+                            <p> Esse celular é muito bom para fazer suas tarefas com excelente qualidade, com seus 512Gb de armazenamento, ele possui uma resolução ótima além de ter um sistema gamer para rodar jogos com excelente qualidade. </p>
+                            <form action="Carrinho.html">
+                                <input type="submit" value="Adicionar ao carrinho" onclick="carrinho()">
+                            </form>
+                        </div>
+                        <!-- Fim das informações do celular -->
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+    </body>
+
+</html>

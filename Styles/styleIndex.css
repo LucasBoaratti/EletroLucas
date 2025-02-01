@@ -1,0 +1,717 @@
+/* Estilizar o CSS em geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizar as fontes de títulos e textos do site */
+
+.cor-texto {
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* Estilizando o layout global */
+
+.container {
+    /* border: 3px solid #468680; */
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* Estilizando o cabeçalho */
+
+header {
+    /* border: 3px solid peru; */
+    background-color: #9349AC;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* Estilzando a logo */
+
+.ajuste-imagem {
+    /* border: 3px solid #097956; */
+    width: 255px;
+    height: 90px;
+}
+
+.logomarca img {
+    width: 100%;
+}
+
+/* Estilizando as informações do cabeçalho */
+
+.layout-infos {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilizando o botão da home */
+
+.ajuste-home {
+    /* border: 3px solid blue; */
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: #4C48BF;
+}
+
+.ajuste-home .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home i {
+    font-size: 50px;
+}
+
+.home p {
+    padding-left: 5px;
+}
+
+/* Estilizando o botão de login/entre */
+
+.ajuste-login {
+    /* border: 3px solid snow; */
+    background-color: #4C48BF;
+    padding-left: 5px;
+    cursor: pointer;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.ajuste-login .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login i {
+    font-size: 50px;
+}
+
+.login p {
+    padding-left: 5px;
+}
+
+/* Estilizando o botão de cadastro */
+
+.ajuste-cadastro {
+    /* border: 3px solid orangered; */
+    padding-left: 5px;
+    padding-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4C48BF;
+}
+
+.ajuste-cadastro .cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro i {
+    font-size: 50px;
+}
+
+.cadastro p {
+    padding-left: 5px;
+}
+
+/* Estilizando o botão do carrinho */
+
+.ajuste-carrinho {
+    /* border: 3px solid olive; */
+    background-color: #09F124;
+    padding-right: 15px;
+    padding-left: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ajuste-carrinho .carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinho i {
+    font-size: 50px;
+}
+
+.carrinho p {
+    padding-left: 5px;
+}
+
+.carrinho a {
+    color: black;
+}
+
+/* Estilizando o banner do site */
+
+.ajuste-imagem-banner {
+    /* border: 3px solid lightblue; */
+    width: 100%;
+    height: 360px;
+} 
+
+.banner-do-site img {
+    width: 100%;
+}
+
+/* Estilizando o carrossel do site */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 600px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* Estilizando o conteúdo do site  */
+
+.conteudo-site {
+    margin: 90px 0;
+    /* border: 3px solid navy; */
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+/* Estilizando a caixa dos celulares */
+
+.ajuste-celular {
+    /* border: 3px solid pink; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.ajuste-celular .celulares {
+    /* border: 3px solid brown; */
+    padding-top: 15px;
+} 
+
+.celulares i {
+    font-size: 100px;
+}
+
+.celulares p {
+    color: white;
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.celulares button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+} 
+
+/* Estilizando a caixa das televisões */
+
+.ajuste-televisao {
+    /* border: 3px solid wheat; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.ajuste-televisao .televisoes {
+    /* border: 3px solid red; */
+    padding-top: 15px;
+}
+
+.televisoes i {
+    font-size: 100px;
+}
+
+.televisoes p {
+    color: white;
+    font-size: 15px;
+    padding: 25px 5px;
+}
+
+.televisoes button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilizando a caixa de computadores */
+
+.ajuste-computador {
+    /* border: 3px solid rosybrown; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.ajuste-computador .computadores {
+    /* border: 3px solid teal; */
+    padding-top: 15px;
+}
+
+.computadores i {
+    font-size: 100px;
+}
+
+.computadores p {
+    color: white;
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.computadores button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilizando a caixa de consoles */
+
+.ajuste-console {
+    /* border: 3px solid palegreen; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.ajuste-console .consoles {
+    /* border: 3px solid palevioletred; */
+    padding-top: 15px;
+}
+
+.consoles i {
+    font-size: 100px;
+}
+
+.consoles p {
+    color: white;
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.consoles button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilizando a caixa de notebooks */
+
+.ajuste-notebook {
+    /* border: 3px solid purple; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.ajuste-notebook .notebooks {
+    /* border: 3px solid pink; */
+    padding-top: 15px;
+}
+
+.notebooks i {
+    font-size: 100px;
+}
+
+.notebooks p {
+    color: white;
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.notebooks button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilizando a área de ofertas */
+
+.ofertas {
+    /* border: 3px solid yellowgreen; */
+    margin: 90px 0;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+/* Estilizando o tamanho das imagens da área de ofertas */
+
+.tamanho-imagem {
+    width: 100%;
+}
+
+/* Estilizando a oferta do nintendo switch */
+
+.ajuste-nintendo-switch {
+    /* border: 3px solid gray; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nintendo-switch h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.nintendo-switch img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.nintendo-switch h4 {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+.nintendo-switch button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilizando a oferta do notebook */
+
+.ajuste-oferta-notebook {
+    /* border: 3px solid gray; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oferta-notebook h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.oferta-notebook img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.oferta-notebook h4 {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+.oferta-notebook button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilizando a oferta do computador/monitor */
+
+.ajuste-oferta-computador {
+    /* border: 3px solid gray; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oferta-computador h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.oferta-computador img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.oferta-computador h4 {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+.oferta-computador button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilzando a oferta do celular */
+
+.ajuste-oferta-celular {
+    /* border: 3px solid gray; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oferta-celular h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.oferta-celular img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.oferta-celular h4 {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+.oferta-celular button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilizando a oferta da televisão */
+
+.ajuste-oferta-televisao {
+    /* border: 3px solid gray; */
+    background-color: #9349AC;
+    width: 180px;
+    height: 290px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oferta-televisao h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.oferta-televisao img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.oferta-televisao h4 {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+.oferta-televisao button {
+    background-color: #4C48BF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilizando o rodapé */
+
+footer {
+    background-color: #9349AC;
+    /* border: 3px solid #574358;  */
+    width: 100%;
+    margin-top: 90px;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+}
+ 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+ 
+.ajuste-rodape {
+    /* border: 3px solid #597895;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+ 
+.ajuste-informacoes p {
+    padding: 10px 0;
+}
+ 
+.ajuste-informacoes-loja p {
+    padding: 10px 0;
+}
+ 
+.ajuste-contato p {
+    padding: 10px 0;
+}
+
+.contatos i {
+    font-size: 35px;
+    padding: 0 5px;
+}
+
+.icones {
+    margin-top: 15px;
+}

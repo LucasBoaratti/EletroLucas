@@ -1,0 +1,361 @@
+/* Estilizar o CSS em geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizar as fontes de títulos e textos do site */
+
+.cor-texto {
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Estilizando o layout global */
+
+.container {
+    /* border: 3px solid #468680; */
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* Estilizando o cabeçalho */
+
+header {
+    /* border: 3px solid peru; */
+    background-color: #9349AC;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* Estilzando a logo */
+
+.ajuste-imagem {
+    /* border: 3px solid #097956; */
+    width: 255px;
+    height: 90px;
+}
+
+.logomarca img {
+    width: 100%;
+}
+
+/* Estilizando as informações do cabeçalho */
+
+.layout-infos {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilizando o botão da home */
+
+.ajuste-home {
+    /* border: 3px solid blue; */
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: #4C48BF;
+}
+
+.ajuste-home .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home i {
+    font-size: 50px;
+}
+
+.home p {
+    padding-left: 5px;
+}
+
+/* Estilizando o botão de login/entre */
+
+.ajuste-login {
+    /* border: 3px solid snow; */
+    background-color: #4C48BF;
+    padding-left: 5px;
+    cursor: pointer;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.ajuste-login .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login i {
+    font-size: 50px;
+}
+
+.login p {
+    padding-left: 5px;
+}
+
+/* Estilizando o botão de cadastro */
+
+.ajuste-cadastro {
+    /* border: 3px solid orangered; */
+    padding-left: 5px;
+    padding-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4C48BF;
+}
+
+.ajuste-cadastro .cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro i {
+    font-size: 50px;
+}
+
+.cadastro p {
+    padding-left: 5px;
+}
+
+/* Estilizando o botão do carrinho */
+
+.ajuste-carrinho {
+    /* border: 3px solid olive; */
+    background-color: #09F124;
+    padding-right: 15px;
+    padding-left: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ajuste-carrinho .carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinho i {
+    font-size: 50px;
+}
+
+.carrinho p {
+    padding-left: 5px;
+}
+
+.carrinho a {
+    color: black;
+}
+
+/* Estilizando o conteúdo principal */
+
+main {
+    margin-left: 10px;
+}
+
+/* Estilizando a página geral de itens do carrinho */
+
+.ajuste-geral-celular {
+    /* border: 3px solid khaki; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.ajuste-celular-carrinho {
+    /* border: 3px solid firebrick; */
+    display: flex;
+}
+
+.ajuste-imagem-celular img {
+    width: 300px;
+    height: 240px;
+}
+
+.produto-celular {
+    /* border: 3px solid forestgreen;  */
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding-left: 20px;
+}
+
+.produto-celular h3 {
+    padding-bottom: 30px;
+} 
+
+.produto-celular h4 {
+    padding-bottom: 30px;
+}
+
+.produto-celular p {
+    font-size: 16px;
+}
+
+/* Estilizando a área de preço total */
+
+.ajuste-total-compra {
+    /* border: 3px solid fuchsia; */
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 95px;
+    display: flex;
+}
+
+.ajuste-total-compra h3 {
+    padding-bottom: 20px;
+}
+
+.ajuste-total-compra h4 {
+    padding-bottom: 20px;
+}
+
+#botao {
+    background-color: #4C48BF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilizando a parte do computador */
+
+.ajuste-geral-computador {
+    /* border: 3px solid darkblue; */
+    display: flex;
+    margin-top: 20px;
+}
+
+.ajuste-computador {
+    display: flex;
+}
+
+.ajuste-imagem-computador img {
+    width: 300px;
+    height: 240px;
+}
+
+.produto-computador {
+    /* border: 3px solid darkgoldenrod; */
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding-left: 20px;
+    width: 600px;
+}
+
+.produto-computador h3 {
+    padding-bottom: 30px;
+}
+
+.produto-computador h4 {
+    padding-bottom: 30px;
+}
+
+.produto-computador p {
+    font-size: 16px;
+}
+
+/* Estilizando a parte do notebook */
+
+.ajuste-geral-notebook {
+    /* border: 3px solid saddlebrown; */
+    display: flex;
+    margin-top: 20px;
+}
+
+.ajuste-notebook {
+    display: flex;
+}
+
+.ajuste-imagem-notebook img {
+    width: 300px;
+    height: 240px;
+}
+
+.produto-notebook {
+    /* border: 3px solid seagreen; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    width: 600px;
+}
+
+.produto-notebook h3 {
+    padding-bottom: 30px;
+}
+
+.produto-notebook h4 {
+    padding-bottom: 30px;
+}
+
+.produto-notebook p {
+    font-size: 16px;
+}
+
+/* Estilizando o rodapé */
+
+footer {
+    background-color: #9349AC;
+    /* border: 3px solid #574358;  */
+    width: 100%;
+    position: relative;
+    top: 95px;
+}
+
+footer p {
+    color: white;
+}
+ 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+ 
+.ajuste-rodape {
+    /* border: 3px solid #597895;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+ 
+.ajuste-informacoes p {
+    padding: 10px 0;
+}
+ 
+.ajuste-informacoes-loja p {
+    padding: 10px 0;
+}
+ 
+.ajuste-contato p {
+    padding: 10px 0;
+}
+
+.contatos i {
+    font-size: 35px;
+    padding: 0 5px;
+}
+
+.icones {
+    margin-top: 15px;
+}
