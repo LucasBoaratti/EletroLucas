@@ -10,7 +10,7 @@ O site EletroLucas nasceu com o propósito de oferecer uma grande variedade de e
 
 3. Abra o VSCode e faça o seguinte atalho: CTRL + K, CTRL O, e escolha a pasta do projeto;
 
-4. Após abrir o projeto, rode com o Live Server do VSCode. Se não tiver instalado, instale ele nas extensões. Outra alternativa é realizar o comando CTRL + F5 e escolher o Web App para rodar o projeto.
+4. Após abrir o projeto, clique com o botão direito no arquivo Index.html e rode com o Live Server do VSCode. Se não tiver instalado, instale ele nas extensões. Outra alternativa é realizar o comando CTRL + F5, estando no arquivo Index.html, e escolher o Web App para rodar o projeto.
 
 E pronto! Agora você pode explorar a EletroLucas :D
 
