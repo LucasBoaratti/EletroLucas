@@ -1,6 +1,18 @@
 # EletroLucas
 
-O site EletroLucas veio para vender diversos eletrônicos para todo mundo! E aqui, você encontrará os principais eletrônicos como computadores, celulares, televisões, consoles e notebooks. O site foi desenvolvido inteiramente para FrontEnd, não tendo nenhuma integração com o BackEnd, apenas um site estático porém com o intuito de desenvolver habilidades no FrontEnd e UI & UX.
+O site EletroLucas nasceu com o propósito de oferecer uma grande variedade de eletrônicos para todos! Aqui, você encontrará os principais dispositivos, como computadores, celulares, televisões, consoles e notebooks — tudo em um só lugar. Este projeto foi desenvolvido inteiramente com foco em FrontEnd, sem integração com o BackEnd. Trata-se de um site estático, mas criado com o objetivo de aperfeiçoar habilidades em FrontEnd, além de aplicar conceitos de UI & UX de forma prática e criativa.
+
+## Como usar o site
+
+1. Baixe o projeto clicando em Code e indo em Download ZIP;
+
+2. Após baixar o arquivo ZIP, extraia a pasta do projeto na área de trabalho ou em documentos;
+
+3. Abra o VSCode e faça o seguinte atalho: CTRL + K, CTRL O, e escolha a pasta do projeto;
+
+4. Após abrir o projeto, rode com o Live Server do VSCode. Se não tiver instalado, instale ele nas extensões. Outra alternativa é realizar o comando CTRL + F5 e escolher o Web App para rodar o projeto.
+
+E pronto! Agora você pode explorar a EletroLucas :D
 
 # Linguagens
 
