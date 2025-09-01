@@ -1,20 +1,40 @@
-# EletroLucas
+# 💻 EletroLucas 💻
 
-O site EletroLucas nasceu com o propósito de oferecer uma grande variedade de eletrônicos para todos! Aqui, você encontrará os principais dispositivos, como computadores, celulares, televisões, consoles e notebooks — tudo em um só lugar. Este projeto foi desenvolvido inteiramente com foco em FrontEnd, sem integração com o BackEnd. Trata-se de um site estático, mas criado com o objetivo de aperfeiçoar habilidades em FrontEnd, além de aplicar conceitos de UI & UX de forma prática e criativa.
+#### O site EletroLucas nasceu com o propósito de oferecer uma grande variedade de eletrônicos para todos! Aqui, você encontrará os principais dispositivos, como computadores, celulares, televisões, consoles e notebooks — tudo em um só lugar. Este projeto foi desenvolvido inteiramente com foco em FrontEnd, sem integração com o BackEnd. Trata-se de um site estático, mas criado com o objetivo de aperfeiçoar habilidades em FrontEnd, além de aplicar conceitos de UI & UX de forma prática e criativa.
 
-## Como usar o site
+# 📱 Como usar o site 📱
 
-1. Baixe o projeto clicando em Code e indo em Download ZIP;
+1. Clique no botão Code e copia a URL do projeto:
 
-2. Após baixar o arquivo ZIP, extraia a pasta do projeto na área de trabalho ou em documentos;
+```bash
+https://github.com/LucasBoaratti/EletroLucas.git
+```
 
-3. Abra o VSCode e faça o seguinte atalho: CTRL + K, CTRL O, e escolha a pasta do projeto;
+2. Abra o Prompt de comando (ou PowerShell ou GitBash) em sua área de trabalho ou em documentos e realize o seguinte comando:
+
+OBS: Certifique que o Git está instalado no seu computador. Caso não esteja, instale aqui: [Git](https://git-scm.com/downloads)
+
+```bash 
+git clone https://github.com/LucasBoaratti/EletroLucas.git
+```
+
+3. Acesse a pasta do projeto:
+
+```bash
+cd .\EletroLucas
+```
+
+4. Agora, entre no VSCode:
+
+```bash
+code .
+```
 
 4. Após abrir o projeto, clique com o botão direito no arquivo Index.html e rode com o Live Server do VSCode. Se não tiver instalado, instale ele nas extensões. Outra alternativa é realizar o comando CTRL + F5, estando no arquivo Index.html, e escolher o Web App para rodar o projeto.
 
-E pronto! Agora você pode explorar a EletroLucas :D
+#### E pronto! Agora você pode explorar a EletroLucas e quem sabe, "comprar" algo, também :D
 
-# Linguagens
+# 🎮 Linguagens/tecnologias utilizadas 🎮
 
 ## FrontEnd
 
