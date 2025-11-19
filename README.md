@@ -34,6 +34,10 @@ code .
 
 #### E pronto! Agora você pode explorar a EletroLucas e quem sabe, "comprar" algo, também :D
 
+# Link do figma
+
+Confira o protótipo do site [aqui](https://www.figma.com/design/MVNXcjrc15D6SdyiuHj6Zm/EletroLucas?node-id=0-1&t=RxL8GRunZeuOtmo3-1)
+
 # 🎮 Linguagens/tecnologias utilizadas 🎮
 
 ## FrontEnd
